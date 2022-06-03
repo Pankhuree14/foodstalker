@@ -5,7 +5,7 @@ import { render } from '@testing-library/react';
 // import Dinner from "./Image/Dinner.jpeg"
 import Beverages from "./Image/VezaSpecial.jpeg"
 import Dinner from "./Image/GrillChicken.jpeg"
-import  Dessert from "./Image/Waffle.jpeg"
+import  Dessert from "./Image/Waffle.png"
 import burger from "./Icons/burger.png"
 import hotdog from "./Icons/hotdog.png"
 import kebab from "./Icons/kebab.png"
@@ -17,7 +17,7 @@ import juice from "./Icons/juice.png"
 
 function Foodstalker() 
  {
-    return(<foodstalker>
+    return(<>
         <div className='mostLiked' id="heading" style={{textAlign:'center'}}>
           <h1 style={{color:"#ffff", fontSize: 60}}>FOODSTALKER</h1>
           <p style={{color:"#ffff"}}>Let's stalk food</p>
@@ -39,7 +39,7 @@ function Foodstalker()
         </div>
           
      
-          </foodstalker>);
+          </>);
         
     
 } 

@@ -1,5 +1,5 @@
 import React from "react";
-import Waffle from "./Image/Waffle.jpeg"
+import Waffle from "./Image/Waffle.png"
 import Smoothie from "./Image/Smoothie.jpeg"
 import Pancake from "./Image/Pancake.jpeg"
 import IceCreame from "./Image/IceCeame.jpeg"

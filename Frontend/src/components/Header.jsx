@@ -3,11 +3,11 @@ import { render } from '@testing-library/react';
 import insta from "./Icons/instaBlack.png"
 import sign from "./Icons/Message.png"
 function Header(){
-  return(<header><nav class="navbar navbar-light bg-light">
-           <div class="container-fluid">
-             <a class="navbar-brand" style={{color:"#FF02A2"}}>Foodstalker</a>
+  return(<header><nav className="navbar navbar-light bg-light">
+           <div className="container-fluid">
+             <a className="navbar-brand" style={{color:"#FF02A2"}}>Foodstalker</a>
          
-               <div class="topbuttons">
+               <div className="topbuttons">
                <button  type="submit">Follow 
                <img style={{opacity:"40%"}} src={insta} alt="insta" width={"20px"}/>
                </button>
