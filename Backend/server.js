@@ -21,10 +21,9 @@ app.post("/api/signup", function(req,res){
     .then(user => res.json({ msg: 'ok' }))
     .catch(err => res.status(200).json({ error: err,msg:'notok' }));
 })
-app.listen(3001,function(){
-    console.log("Server is running on 3001");
-});
-
+app.listen(process.env.PORT || 3000, function(){
+    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+  });
 mongoose.connect(url,{
     useNewUrlParser: true,
     
