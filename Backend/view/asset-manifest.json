@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.8b0db0ad.css",
-    "main.js": "/static/js/main.a0812ab3.js",
+    "main.js": "/static/js/main.5dcee08d.js",
     "static/media/feast.jpg": "/static/media/feast.d1f67e29b0e58f4ca502.jpg",
     "static/media/shake.jpg": "/static/media/shake.50cb64c0aaa8ca1c37e5.jpg",
+    "static/media/Waffle.jpg": "/static/media/Waffle.17faa4a3c726ee1c3ecd.jpg",
     "static/media/instagram.png": "/static/media/instagram.afdc6840fa766bb38d81.png",
-    "static/media/Waffle.png": "/static/media/Waffle.9eaf91b8d0e2529f4b29.png",
     "static/media/Profile.mp4": "/static/media/Profile.2d1fc65dff779c880bad.mp4",
     "static/media/Nachos.jpeg": "/static/media/Nachos.effd4c4cf52101ecc5eb.jpeg",
     "static/media/fries.png": "/static/media/fries.e0ade30f2c78926c2752.png",
@@ -17,6 +17,7 @@
     "static/media/burger.png": "/static/media/burger.53e37e9d21567b394fc7.png",
     "static/media/Mojito&ColdCoffee.jpeg": "/static/media/Mojito&ColdCoffee.b3a7165f33f6df065d73.jpeg",
     "static/media/Smoothie.jpeg": "/static/media/Smoothie.6034b0c0486e304585de.jpeg",
+    "static/media/Mypic.jpeg": "/static/media/Mypic.9fe7dc559730f3aa1560.jpeg",
     "static/media/pic2.jpeg": "/static/media/pic2.31d0e4e4f03e9dff82bb.jpeg",
     "static/media/hotdog.png": "/static/media/hotdog.d979a7b9f97f8a866739.png",
     "static/media/Pancake.jpeg": "/static/media/Pancake.31f8fc6b79b33d85d085.jpeg",
@@ -36,10 +37,10 @@
     "static/media/chocolateMilkshake.jpeg": "/static/media/chocolateMilkshake.c7526c7ab693da78595d.jpeg",
     "index.html": "/index.html",
     "main.8b0db0ad.css.map": "/static/css/main.8b0db0ad.css.map",
-    "main.a0812ab3.js.map": "/static/js/main.a0812ab3.js.map"
+    "main.5dcee08d.js.map": "/static/js/main.5dcee08d.js.map"
   },
   "entrypoints": [
     "static/css/main.8b0db0ad.css",
-    "static/js/main.a0812ab3.js"
+    "static/js/main.5dcee08d.js"
   ]
 }

@@ -13,14 +13,19 @@ body{
 html {
   font-family: "Montserrat", sans-serif;
 }
-header{
-    background-color: #ffffff;
-  margin: auto -16px;
-  padding: 3px 45px;
-  font-family: myMainFont !important;
-  font-weight: 200px;
-  
+.header{
+ text-align: center;
+  font-weight: 200px !important;
+ color:#FF02A2 !important;
 }
+
+.recipePic{
+  text-Align:center;
+  color:#FF02A2;
+  cursor:pointer;
+  font-Weight:bold;
+}
+
 .topbuttons{
   display: flex;
   justify-content: space-between;
@@ -49,7 +54,7 @@ button{
    font-family: myMainFont;
 }
 #heading p{
-  font-family: myMainFont ;
+  font-family:subHeading ;
 }
 #image{
 
@@ -159,9 +164,9 @@ button{
   background: #FDC6E8;
   display: flex;
   width: 35%;
-  height: max-content;
+  /* height: max-content; */
+  height: 600px;
   flex-direction: column;
-  padding: 20px;
 }
 .follow_btn{
   width: 40%;
@@ -170,6 +175,13 @@ button{
 .purple_box-small{
   background: #FDC6E8;
   width: 55%;
+  height:max-content;
+  padding: 2%;
+}
+.purple_box-small_l{
+  background: #FDC6E8;
+  width: 55%;
+  height: 600px;
   padding: 2%;
 }
 .post_img{
@@ -216,10 +228,6 @@ button{
     flex-direction: column;
   }
   .banner_img{margin-top: 0px!important;}
-  .mostLiked{
-    margin-top: -40px;
-    flex-direction: column;
-  }
 
 }
 
